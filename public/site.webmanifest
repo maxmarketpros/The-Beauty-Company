@@ -1,0 +1,21 @@
+{
+  "name": "The Beauty Company",
+  "short_name": "Beauty Co",
+  "description": "Expert lash extensions, microneedling, and beauty treatments in Northglenn & Westminster, CO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF7",
+  "theme_color": "#7FE7E1",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-icon.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
