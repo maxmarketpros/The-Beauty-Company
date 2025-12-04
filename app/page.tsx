@@ -572,6 +572,57 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Location Section */}
+      <section id="location" className="py-20 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row items-center gap-10">
+            <div className="flex-1 space-y-6 text-center lg:text-left">
+              <div className="flex items-center justify-center lg:justify-start gap-3 text-aqua">
+                <MapPin className="w-6 h-6" />
+                <span className="text-xs uppercase tracking-[0.3em] font-medium text-charcoal/70">see our location</span>
+              </div>
+              <h3 className="font-serif text-4xl md:text-5xl text-charcoal">
+                Visit Us in Northglenn, Colorado
+              </h3>
+              <p className="text-charcoal/70 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
+                The Beauty Company welcomes you to our studio for lash extensions, microneedling and beauty services.
+                Our space is designed for comfort and calm so you can relax while getting the look you love.
+              </p>
+              <div className="space-y-2 text-center lg:text-left">
+                <p className="text-charcoal font-semibold">Studio Address</p>
+                <p className="text-charcoal/70">10465 Melody Dr # 201</p>
+                <p className="text-charcoal/70">Northglenn, CO 80234</p>
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-charcoal text-charcoal rounded-full px-8 py-3 mt-4"
+                >
+                  <a
+                    href="https://www.google.com/maps?q=10465+Melody+Dr+%23201,+Northglenn,+CO+80234"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Open in Google Maps
+                  </a>
+                </Button>
+              </div>
+            </div>
+
+            <div className="flex-1 w-full h-[420px] rounded-3xl overflow-hidden border-2 border-light-gray shadow-2xl">
+              <iframe
+                title="The Beauty Company location"
+                src="https://www.google.com/maps?q=10465+Melody+Dr+%23201,+Northglenn,+CO+80234&output=embed"
+                width="100%"
+                height="100%"
+                className="border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-charcoal text-cream py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
